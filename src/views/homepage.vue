@@ -57,19 +57,19 @@
 					<br>
 					<h2>{{ $t('Btm_Content.First_H2_Header') }}</h2>
 					<p>{{ $t('Btm_Content.First_H2_Content_1') }} <strong>{{ $t('Btm_Content.First_H2_Content_2')
-							}}</strong> {{
+					}}</strong> {{
 								$t('Btm_Content.First_H2_Content_3') }} </p>
 					<br>
 					<h2>{{ $t('Btm_Content.Second_H2_Header') }}</h2>
 					<p>{{ $t('Btm_Content.Second_H2_Content_1') }} <strong>{{ $t('Btm_Content.Second_H2_Content_2')
-							}}</strong> {{
+					}}</strong> {{
 								$t('Btm_Content.Second_H2_Content_3') }} </p>
 					<ul>
 						<li>
 							{{ $t('Btm_Content.Second_H2_First_Li_Header') }}
 							<p>{{ $t('Btm_Content.Second_H2_First_Li_Content_1') }} <strong>{{
 								$t('Btm_Content.Second_H2_First_Li_Content_2')
-									}}</strong> {{
+							}}</strong> {{
 										$t('Btm_Content.Second_H2_First_Li_Content_3') }} </p>
 						</li>
 						<li>
@@ -80,25 +80,25 @@
 							{{ $t('Btm_Content.Second_H2_Third_Li_Header') }}
 							<p>{{ $t('Btm_Content.Second_H2_Third_Li_Content_1') }} <strong>{{
 								$t('Btm_Content.Second_H2_Third_Li_Content_2')
-									}}</strong> {{
+							}}</strong> {{
 										$t('Btm_Content.Second_H2_Third_Li_Content_3') }} </p>
 						</li>
 					</ul>
 					<p>{{ $t('Btm_Content.Second_H2_Btm_Content_1') }} <strong>{{
 						$t('Btm_Content.Second_H2_Btm_Content_2')
-							}}</strong> {{
+					}}</strong> {{
 								$t('Btm_Content.Second_H2_Btm_Content_3') }} </p>
 					<br>
 					<h2>{{ $t('Btm_Content.Third_H2_Header') }}</h2>
 					<p>{{ $t('Btm_Content.Third_H2_Content_1') }} <strong>{{
 						$t('Btm_Content.Third_H2_Content_2')
-							}}</strong> {{
+					}}</strong> {{
 								$t('Btm_Content.Third_H2_Content_3') }} </p>
 					<ol>
 						<li>
 							<p>{{ $t('Btm_Content.Third_H2_First_Li_Content_1') }} <strong>{{
 								$t('Btm_Content.Third_H2_First_Li_Content_2')
-									}}</strong> {{
+							}}</strong> {{
 										$t('Btm_Content.Third_H2_First_Li_Content_3') }} </p>
 						</li>
 						<li>
@@ -107,13 +107,13 @@
 						<li>
 							<p>{{ $t('Btm_Content.Third_H2_Third_Li_Content_1') }} <strong>{{
 								$t('Btm_Content.Third_H2_Third_Li_Content_2')
-									}}</strong> {{
+							}}</strong> {{
 										$t('Btm_Content.Third_H2_Third_Li_Content_3') }} </p>
 						</li>
 						<li>
 							<p>{{ $t('Btm_Content.Third_H2_Fourth_Li_Content_1') }} <strong>{{
 								$t('Btm_Content.Third_H2_Fourth_Li_Content_2')
-									}}</strong> {{
+							}}</strong> {{
 										$t('Btm_Content.Third_H2_Fourth_Li_Content_3') }} </p>
 						</li>
 					</ol>
@@ -182,7 +182,7 @@
 						</div>
 					</div>
 					<div class="copyright">
-						2016-2024 Starbucks88. ALL RIGHTS RESERVED.
+						2016-2025 Starbucks88. ALL RIGHTS RESERVED.
 					</div>
 				</div>
 			</div>
