@@ -141,7 +141,7 @@
 					<span class="read-more" @click="toggleContent" v-if="!showContent">
 						{{ $t('Main_Content.Read_More') }}</span>
 					<span class="read-less" @click="toggleContent" v-else>{{ $t('Main_Content.Read_Less')
-						}}</span>
+					}}</span>
 
 					<div>
 						<h2 class="FAQ_Header">{{ $t('FAQs.FAQ') }}</h2>
@@ -286,7 +286,7 @@
 						</div>
 					</div>
 					<div class="copyright">
-						2011-2024 IJaya88 ALL RIGHTS RESERVED.
+						2011-2025 IJaya88 ALL RIGHTS RESERVED.
 					</div>
 				</div>
 			</div>
