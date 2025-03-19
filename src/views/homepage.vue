@@ -167,7 +167,7 @@
 						</div>
 					</div>
 					<div class="copyright">
-						2016-2024 ALPHA66. ALL RIGHTS RESERVED.
+						2016-2025 ALPHA66. ALL RIGHTS RESERVED.
 					</div>
 				</div>
 			</div>
