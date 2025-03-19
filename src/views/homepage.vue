@@ -200,7 +200,7 @@
 						</div>
 					</div>
 					<div class="copyright">
-						2016-2024 CROWN99. ALL RIGHTS RESERVED.
+						2016-2025 CROWN99. ALL RIGHTS RESERVED.
 					</div>
 				</div>
 			</div>
