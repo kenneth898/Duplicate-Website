@@ -232,7 +232,7 @@
 						</div>
 					</div>
 					<div class="copyright">
-						2016-2024 BEARBRICK888. ALL RIGHTS RESERVED.
+						2016-2025 BEARBRICK888. ALL RIGHTS RESERVED.
 					</div>
 				</div>
 			</div>
