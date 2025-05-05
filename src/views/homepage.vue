@@ -1,7 +1,7 @@
 <template>
-	<div>
+	<!-- <div>
 		<PopUpCard />
-	</div>
+	</div> -->
 
 	<div class="topbanner">
 		<TopBanner />
@@ -57,19 +57,19 @@
 					<br>
 					<h2>{{ $t('Btm_Content.First_H2_Header') }}</h2>
 					<p>{{ $t('Btm_Content.First_H2_Content_1') }} <strong>{{ $t('Btm_Content.First_H2_Content_2')
-					}}</strong> {{
+							}}</strong> {{
 								$t('Btm_Content.First_H2_Content_3') }} </p>
 					<br>
 					<h2>{{ $t('Btm_Content.Second_H2_Header') }}</h2>
 					<p>{{ $t('Btm_Content.Second_H2_Content_1') }} <strong>{{ $t('Btm_Content.Second_H2_Content_2')
-					}}</strong> {{
+							}}</strong> {{
 								$t('Btm_Content.Second_H2_Content_3') }} </p>
 					<ul>
 						<li>
 							{{ $t('Btm_Content.Second_H2_First_Li_Header') }}
 							<p>{{ $t('Btm_Content.Second_H2_First_Li_Content_1') }} <strong>{{
 								$t('Btm_Content.Second_H2_First_Li_Content_2')
-							}}</strong> {{
+									}}</strong> {{
 										$t('Btm_Content.Second_H2_First_Li_Content_3') }} </p>
 						</li>
 						<li>
@@ -80,25 +80,25 @@
 							{{ $t('Btm_Content.Second_H2_Third_Li_Header') }}
 							<p>{{ $t('Btm_Content.Second_H2_Third_Li_Content_1') }} <strong>{{
 								$t('Btm_Content.Second_H2_Third_Li_Content_2')
-							}}</strong> {{
+									}}</strong> {{
 										$t('Btm_Content.Second_H2_Third_Li_Content_3') }} </p>
 						</li>
 					</ul>
 					<p>{{ $t('Btm_Content.Second_H2_Btm_Content_1') }} <strong>{{
 						$t('Btm_Content.Second_H2_Btm_Content_2')
-					}}</strong> {{
+							}}</strong> {{
 								$t('Btm_Content.Second_H2_Btm_Content_3') }} </p>
 					<br>
 					<h2>{{ $t('Btm_Content.Third_H2_Header') }}</h2>
 					<p>{{ $t('Btm_Content.Third_H2_Content_1') }} <strong>{{
 						$t('Btm_Content.Third_H2_Content_2')
-					}}</strong> {{
+							}}</strong> {{
 								$t('Btm_Content.Third_H2_Content_3') }} </p>
 					<ol>
 						<li>
 							<p>{{ $t('Btm_Content.Third_H2_First_Li_Content_1') }} <strong>{{
 								$t('Btm_Content.Third_H2_First_Li_Content_2')
-							}}</strong> {{
+									}}</strong> {{
 										$t('Btm_Content.Third_H2_First_Li_Content_3') }} </p>
 						</li>
 						<li>
@@ -107,13 +107,13 @@
 						<li>
 							<p>{{ $t('Btm_Content.Third_H2_Third_Li_Content_1') }} <strong>{{
 								$t('Btm_Content.Third_H2_Third_Li_Content_2')
-							}}</strong> {{
+									}}</strong> {{
 										$t('Btm_Content.Third_H2_Third_Li_Content_3') }} </p>
 						</li>
 						<li>
 							<p>{{ $t('Btm_Content.Third_H2_Fourth_Li_Content_1') }} <strong>{{
 								$t('Btm_Content.Third_H2_Fourth_Li_Content_2')
-							}}</strong> {{
+									}}</strong> {{
 										$t('Btm_Content.Third_H2_Fourth_Li_Content_3') }} </p>
 						</li>
 					</ol>
@@ -201,7 +201,7 @@ import { useI18n } from 'vue-i18n'; // Add this import
 import LeftBanner from '/src/components/Left_Banner.vue';
 import RightBanner from '/src/components/Right_Banner.vue';
 import TopBanner from '/src/components/Top_Banner.vue';
-import PopUpCard from '@/components/PopUpCard.vue';
+// import PopUpCard from '@/components/PopUpCard.vue';
 import BackToTop from '@/components/BackToTop.vue';
 import { mapGetters } from 'vuex';
 import axios from 'axios';
@@ -211,7 +211,7 @@ export default {
 		LeftBanner,
 		RightBanner,
 		TopBanner,
-		PopUpCard,
+		// PopUpCard,
 		BackToTop,
 	},
 	data() {
