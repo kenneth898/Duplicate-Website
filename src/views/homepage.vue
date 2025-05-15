@@ -28,13 +28,14 @@
 					<div class="MB_Img" id="MB_Img">
 						<div class="image-grid-container">
 							<div class="image-wrapper" v-for="n in 92" :key="n">
-								<a v-if="n <= 12" :href="link_ataskasino + 'en/sign-up/'" rel="nofollow">
+								<a v-if="n <= 12 && link_ataskasino" :href="link_ataskasino + 'en/sign-up/'"
+									rel="nofollow">
 									<img :src="`/images/MB_${n}_Img.webp`" :alt="altTexts[n - 1]">
 								</a>
 								<img v-else :src="`/images/MB_${n}_Img.webp`" :alt="altTexts[n - 1]">
 
 								<div v-if="n <= 12">
-									<a :href="link_ataskasino + 'en/sign-up/'" rel="nofollow">
+									<a v-if="link_ataskasino" :href="link_ataskasino + 'en/sign-up/'" rel="nofollow">
 										<p class="Play_Text">{{ $t('message.Play') }}</p>
 									</a>
 								</div>
@@ -246,19 +247,20 @@
 					<div class="footer-detail">
 						<p>{{ $t('Our_Partner.Partner') }}</p>
 						<div class="Atas_Sign_Up_Container">
-							<a :href="link_ataskasino">{{ $t('Atas_Sign_Up.Header') }}</a> - {{
+							<a v-if="link_ataskasino" :href="link_ataskasino">{{ $t('Atas_Sign_Up.Header') }}</a> - {{
 								$t('Atas_Sign_Up.Content') }}
 						</div>
 						<div class="Atas_Download_Container">
 							{{ $t('Atas_Download.Header') }}
 							-
 							{{ $t('Atas_Download.Content_1') }}
-							<a :href="link_atascasinobet">{{ $t('Atas_Download.Content_2') }}</a>
+							<a v-if="link_atascasinobet" :href="link_atascasinobet">{{ $t('Atas_Download.Content_2')
+								}}</a>
 							{{ $t('Atas_Download.Content_3') }}
 						</div>
 						<div class="Atas_Download_Container">
 							{{ $t('thitdFooter.1') }}
-							<a :href="link_ataskasino">{{ $t('thitdFooter.2') }}</a>
+							<a v-if="link_atascasinobet" :href="link_ataskasino">{{ $t('thitdFooter.2') }}</a>
 							{{ $t('thitdFooter.3') }}
 						</div>
 

@@ -9,17 +9,17 @@
 
 		<div class="carousel-inner">
 			<div class="carousel-item active" data-bs-interval="4000">
-				<a :href="link_ataskasino + 'en/sign-up/'" rel="nofollow">
+				<a v-if="link_ataskasino" :href="link_ataskasino + 'en/sign-up/'" rel="nofollow">
 					<img width="100%" src="/images/Brand_Carousel_Img_1.webp" class="d-block w-100" alt="Bonus 388">
 				</a>
 			</div>
 			<div class="carousel-item" data-bs-interval="4000">
-				<a :href="link_ataskasino + 'en/sign-up/'" rel="nofollow">
+				<a v-if="link_ataskasino" :href="link_ataskasino + 'en/sign-up/'" rel="nofollow">
 					<img width="100%" src="/images/Brand_Carousel_Img_2.webp" class="d-block w-100" alt="Bonus 50">
 				</a>
 			</div>
 			<div class="carousel-item" data-bs-interval="4000">
-				<a :href="link_ataskasino + 'en/sign-up/'" rel="nofollow">
+				<a v-if="link_ataskasino" :href="link_ataskasino + 'en/sign-up/'" rel="nofollow">
 					<img width="100%" src="/images/Brand_Carousel_Img_3.webp" class="d-block w-100" alt="Bonus 50">
 				</a>
 			</div>

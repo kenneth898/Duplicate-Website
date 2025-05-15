@@ -2,7 +2,7 @@
 	<div class="Right_Banner_Container">
 		<div class="RB_Imgs">
 			<div class="Laptop-view">
-				<a :href="link_ataskasino + 'en/sign-up/'" rel="nofollow">
+				<a v-if="link_ataskasino" :href="link_ataskasino + 'en/sign-up/'" rel="nofollow">
 					<img src="/images/Percuma RM 50.webp" alt="Percuma RM 50">
 				</a>
 			</div>
@@ -14,10 +14,10 @@
 
 			<div class="Info_Container">
 				<div class="login-register-container">
-					<a :href="link_ataskasino + 'login'" rel="nofollow">
+					<a v-if="link_ataskasino" :href="link_ataskasino + 'login'" rel="nofollow">
 						<img class="Join" src="/images/RB_Login_Img.gif" alt="Login">
 					</a>
-					<a :href="link_ataskasino + 'en/sign-up/'" rel="nofollow">
+					<a v-if="link_ataskasino" :href="link_ataskasino + 'en/sign-up/'" rel="nofollow">
 						<img class="Register" src="/images/RB_Register_Img.gif" alt="Register">
 					</a>
 				</div>
@@ -32,13 +32,13 @@
 						<p>{{ $t('message.Min_Withdrawal') }} <strong>RM50.00</strong></p>
 					</div>
 					<div class="RB_Cash_Btn_Container">
-						<a :href="link_ataskasino + 'en/sign-up/'" rel="nofollow">
+						<a v-if="link_ataskasino" :href="link_ataskasino + 'en/sign-up/'" rel="nofollow">
 							<img class="no-br" src="/images/RB_Deposit_Img.webp" alt="Deposit">
 						</a>
-						<a :href="link_ataskasino + 'en/sign-up/'" rel="nofollow">
+						<a v-if="link_ataskasino" :href="link_ataskasino + 'en/sign-up/'" rel="nofollow">
 							<img class="no-br" src="/images/RB_Withdraw_Img.webp" alt="Withdraw">
 						</a>
-						<a :href="link_ataskasino + 'en/sign-up/'" rel="nofollow">
+						<a v-if="link_ataskasino" :href="link_ataskasino + 'en/sign-up/'" rel="nofollow">
 							<img class="no-br" src="/images/RB_Refresh_Img.webp" alt="Refresh">
 						</a>
 					</div>
@@ -55,7 +55,7 @@
 						<p>{{ $t('message.start_time') }}</p>
 						<p>17 Aug 2024</p>
 						<p class="time">03:00</p>
-						<a :href="link_ataskasino + 'login'" rel="nofollow">
+						<a v-if="link_atascasinobet" :href="link_ataskasino + 'login'" rel="nofollow">
 							<div class="bet-now-container">
 								<p>{{ $t('message.bet_now') }}</p>
 							</div>
@@ -66,44 +66,44 @@
 						<p>{{ $t('message.team_2') }}</p>
 					</div>
 				</div>
-				<a :href="link_ataskasino + 'en/sports-live'" rel="nofollow">
+				<a v-if="link_ataskasino" :href="link_ataskasino + 'en/sports-live'" rel="nofollow">
 					<div class="show-more-button-container">
 						<p>{{ $t('message.show_more') }}</p>
 					</div>
 				</a>
 			</div>
 
-			<a :href="link_ataskasino + 'en/sign-up/'" rel="nofollow">
+			<a v-if="link_ataskasino" :href="link_ataskasino + 'en/sign-up/'" rel="nofollow">
 				<img src="/images/RB_Img_3.webp" alt="Slot Competition Leaderboard">
 			</a>
 
 			<div class="Tablet-Mobile-view">
 				<div style="position: relative;">
-					<a :href="link_ataskasino + 'en/sign-up/'" rel="nofollow"><img src="/images/LB_Img_7.webp"
-							alt="Get Bonus"></a>
+					<a v-if="link_ataskasino" :href="link_ataskasino + 'en/sign-up/'" rel="nofollow"><img
+							src="/images/LB_Img_7.webp" alt="Get Bonus"></a>
 					<div class="button-grp">
-						<a :href="link_ataskasino + 'en/sign-up/'" rel="nofollow">
+						<a v-if="link_ataskasino" :href="link_ataskasino + 'en/sign-up/'" rel="nofollow">
 							<img class="col-6" src="/images/LB_Share_Img.webp" alt="Share">
 						</a>
-						<a :href="link_ataskasino + 'en/sign-up/'" rel="nofollow">
+						<a v-if="link_ataskasino" :href="link_ataskasino + 'en/sign-up/'" rel="nofollow">
 							<img class="col-6" src="/images/LB_Downline_Img.webp" alt="Downline">
 						</a>
-						<a :href="link_ataskasino + 'en/sign-up/'" rel="nofollow">
+						<a v-if="link_ataskasino" :href="link_ataskasino + 'en/sign-up/'" rel="nofollow">
 							<img class="col-6" src="/images/LB_Copy_Img.webp" alt="Copy">
 						</a>
-						<a :href="link_ataskasino + 'en/sign-up/'" rel="nofollow">
+						<a v-if="link_ataskasino" :href="link_ataskasino + 'en/sign-up/'" rel="nofollow">
 							<img class="col-6" src="/images/LB_Free_Img.gif" alt="More">
 						</a>
 					</div>
 					<a href="/"><img src="/images/LB_FB_Img.webp" alt="Facebook"></a>
 					<a href="https://t.me/atas77channel" rel="nofollow"><img src="/images/LB_Telegram_Img.webp"
 							alt="Telegram"></a>
-					<a :href="link_ataskasino + 'en/sign-up/'" rel="nofollow"><img src="/images/LB_App_Img.webp"
-							alt="App Download"></a>
+					<a v-if="link_ataskasino" :href="link_ataskasino + 'en/sign-up/'" rel="nofollow"><img
+							src="/images/LB_App_Img.webp" alt="App Download"></a>
 				</div>
 			</div>
 
-			<a :href="link_ataskasino + 'en/sign-up/'" rel="nofollow">
+			<a v-if="link_ataskasino" :href="link_ataskasino + 'en/sign-up/'" rel="nofollow">
 				<img src="/images/ATAS-BAds.webp" alt="Bonus Top Up">
 			</a>
 		</div>

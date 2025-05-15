@@ -1,6 +1,6 @@
 <template>
 	<div class="Left_Banner_Container_M">
-		<a :href="link_ataskasino + 'en/sign-up/'" rel="nofollow">
+		<a v-if="link_ataskasino" :href="link_ataskasino + 'en/sign-up/'" rel="nofollow">
 			<img src="/images/bonus50_.webp" class="d-block w-100" alt="Bonus Tambah Nilai Harian 50%">
 		</a>
 	</div>
@@ -9,7 +9,7 @@
 
 		<div class="LB_Imgs">
 			<div class="LB_First_Banner" style="display: none;">
-				<a :href="link_ataskasino + 'en/sign-up/'" rel="nofollow">
+				<a v-if="link_ataskasino" :href="link_ataskasino + 'en/sign-up/'" rel="nofollow">
 					<img src="/images/bonus50_.webp" class="d-block w-100" alt="Bonus Tambah Nilai Harian 50%">
 				</a>
 			</div>
@@ -85,19 +85,19 @@
 			</table>
 
 			<div class="Tablet-Mobile-view">
-				<a :href="link_ataskasino + 'en/sign-up/'" rel="nofollow"><img src="/images/LB_Img_7.webp"
-						alt="Get Bonus"></a>
+				<a v-if="link_ataskasino" :href="link_ataskasino + 'en/sign-up/'" rel="nofollow"><img
+						src="/images/LB_Img_7.webp" alt="Get Bonus"></a>
 				<div class="button-grp">
-					<a :href="link_ataskasino + 'en/sign-up/'" rel="nofollow">
+					<a v-if="link_ataskasino" :href="link_ataskasino + 'en/sign-up/'" rel="nofollow">
 						<img class="col-6" src="/images/LB_Share_Img.webp" alt="Share">
 					</a>
-					<a :href="link_ataskasino + 'en/sign-up/'" rel="nofollow">
+					<a v-if="link_ataskasino" :href="link_ataskasino + 'en/sign-up/'" rel="nofollow">
 						<img class="col-6" src="/images/LB_Downline_Img.webp" alt="Downline">
 					</a>
-					<a :href="link_ataskasino + 'en/sign-up/'" rel="nofollow">
+					<a v-if="link_ataskasino" :href="link_ataskasino + 'en/sign-up/'" rel="nofollow">
 						<img class="col-6" src="/images/LB_Copy_Img.webp" alt="Copy">
 					</a>
-					<a :href="link_ataskasino + 'en/sign-up/'" rel="nofollow">
+					<a v-if="link_ataskasino" :href="link_ataskasino + 'en/sign-up/'" rel="nofollow">
 						<img class="col-6" src="/images/LB_Free_Img.gif" alt="More">
 					</a>
 				</div>
@@ -111,8 +111,8 @@
 				<a href="/"><img src="/images/LB_FB_Img.webp" alt="Facebook"></a>
 				<a href="https://t.me/atas77channel" rel="nofollow"><img src="/images/LB_Telegram_Img.webp"
 						alt="Telegram"></a>
-				<a :href="link_ataskasino + 'en/sign-up/'" rel="nofollow"><img src="/images/LB_App_Img.webp"
-						alt="App Download"></a>
+				<a v-if="link_ataskasino" :href="link_ataskasino + 'en/sign-up/'" rel="nofollow"><img
+						src="/images/LB_App_Img.webp" alt="App Download"></a>
 			</div>
 		</div>
 	</div>
