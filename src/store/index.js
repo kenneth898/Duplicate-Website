@@ -21,8 +21,7 @@ const store = createStore({
 	actions: {
 		async fetchLink_ataskasino({ commit, state }) {
 			if (!state.link_ataskasino && !state.isFetching) {
-				// 防止重复调用
-				commit('SET_FETCHING', true);  // 设置正在获取数据的状态
+				commit('SET_FETCHING', true);
 				try {
 					const response = await axios.get(
 						'https://seo.mobileapplab.online/api/atas?fields[0]=ataskasino_com',
@@ -32,11 +31,22 @@ const store = createStore({
 							}
 						}
 					);
-					commit('SET_LINK_ATASKASINO', response.data.data.attributes.ataskasino_com);
+
+					const url = response?.data?.data?.attributes?.ataskasino_com || null;
+
+					// 域名白名单校验
+					if (url && url.includes('ataskasino2.com')) {
+						commit('SET_LINK_ATASKASINO', url);
+					} else {
+						console.warn('❗️ 不合规链接，已忽略:', url);
+						commit('SET_LINK_ATASKASINO', null);
+					}
 				} catch (error) {
-					console.error(error);
+					console.error('❌ API 获取错误:', error);
+					commit('SET_ERROR', error.message || error);
+					commit('SET_LINK_ATASKASINO', null);
 				} finally {
-					commit('SET_FETCHING', false);  // 恢复状态
+					commit('SET_FETCHING', false);
 				}
 			}
 		}

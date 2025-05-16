@@ -59,7 +59,9 @@ export default {
 			});
 		});
 		this.$store.dispatch('fetchLink_ataskasino');
+
 	},
+
 };
 </script>
 

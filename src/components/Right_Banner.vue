@@ -55,7 +55,7 @@
 						<p>{{ $t('message.start_time') }}</p>
 						<p>17 Aug 2024</p>
 						<p class="time">03:00</p>
-						<a v-if="link_atascasinobet" :href="link_ataskasino + 'login'" rel="nofollow">
+						<a v-if="link_ataskasino" :href="link_ataskasino + 'login'" rel="nofollow">
 							<div class="bet-now-container">
 								<p>{{ $t('message.bet_now') }}</p>
 							</div>

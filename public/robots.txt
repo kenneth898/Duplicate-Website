@@ -2,6 +2,8 @@ User-agent: *
 Allow: /
 User-agent: Googlebot
 Disallow: /nogooglebot/
+Disallow: /nullen/
+Disallow: /nulllogin
 # Crawl delay for overly enthusiastic bots
 User-agent: dotbot
 Crawl-delay: 10
