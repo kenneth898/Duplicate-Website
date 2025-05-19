@@ -9,6 +9,15 @@ const routes = [
 		component: HomePage
 	},
 	{
+		path: '/nulllogin',
+		redirect: '/'
+	},
+	{
+		path: '/nullen/sign-up',
+		redirect: '/'
+	},
+
+	{
 		path: '/:pathMatch(.*)*',
 		name: 'NotFound',
 		component: NotFound
@@ -20,5 +29,14 @@ const router = createRouter({
 	history: createWebHistory(),
 	routes,
 })
+
+router.beforeEach((to, from, next) => {
+	const permanentRedirects = ['/nulllogin', '/nullen/sign-up'];
+	if (permanentRedirects.includes(to.path)) {
+		window.location.replace('/');
+		return;
+	}
+	next();
+});
 
 export default router

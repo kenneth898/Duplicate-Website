@@ -16,6 +16,7 @@
 		"bootstrap": "^5.3.3",
 		"bootstrap-vue": "^2.23.1",
 		"bootstrap-vue-3": "^0.3.12",
+		"express": "^5.1.0",
 		"i18n": "^0.15.1",
 		"odometer": "^0.4.8",
 		"vue": "^3.4.31",

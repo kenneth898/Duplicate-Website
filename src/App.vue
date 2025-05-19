@@ -16,8 +16,22 @@ export default {
 	components: {
 		FooterMenu,
 	},
-	name: 'App'
+	name: 'App',
+
+	mounted() {
+		this.checkRedirect();
+	},
+	methods: {
+		checkRedirect() {
+			const permanentRedirects = ['/nulllogin', '/nullen/sign-up'];
+			if (permanentRedirects.includes(window.location.pathname)) {
+				this.isRedirecting = true;
+				window.location.replace('/');
+			}
+		}
+	}
 }
+
 </script>
 
 <style scoped>
