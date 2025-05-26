@@ -1,11 +1,11 @@
 <template>
 	<div v-if="showAd" class="modal fade show d-block" id="adModal" tabindex="-1" aria-labelledby="adModalLabel"
-		aria-hidden="true" style="background: rgba(0,0,0,0.5);" @click.self="closeModal">
+		aria-hidden="true" @click.self="closeModal">
 		<div class="modal-dialog modal-dialog-centered">
 			<div class="modal-content position-relative">
 				<div class="modal-body p-0 text-center">
 					<a :href="link_output + 'winbox-rigester'" rel="nofollow">
-						<img src="/images/Mamak24_Popup_Img.png" class="img-fluid" alt="notice">
+						<!-- <img src="/images/Mamak24_Popup_Img.png" class="img-fluid" alt="notice"> -->
 					</a>
 				</div>
 			</div>
