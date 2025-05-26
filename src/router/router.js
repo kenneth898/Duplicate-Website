@@ -9,7 +9,7 @@ const routes = [
 		component: HomePage
 	},
 	{
-		path: '/caf/',
+		path: '/caf',
 		redirect: '/'
 	},
 	{
