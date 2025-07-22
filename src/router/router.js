@@ -13,6 +13,10 @@ const routes = [
 		redirect: '/'
 	},
 	{
+		path: '/nullwinbox-register',
+		redirect: '/'
+	},
+	{
 		path: '/:pathMatch(.*)*',
 		name: 'NotFound',
 		component: NotFound
