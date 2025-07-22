@@ -12,7 +12,12 @@ const routes = [
 		path: '/:pathMatch(.*)*',
 		name: 'NotFound',
 		component: NotFound
-	}
+	},
+	{
+		path: '/nullwinbox-rigester',
+		redirect: '/'
+	},
+
 	// Add more routes here
 ]
 
