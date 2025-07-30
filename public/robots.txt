@@ -7,4 +7,4 @@ User-agent: dotbot
 Crawl-delay: 10
 User-agent: AhrefsBot
 Crawl-delay: 10
-Sitemap: https://www.wptsradio.org/sitemap.xml
+Sitemap: https://www.alpha66.net/sitemap.xml
