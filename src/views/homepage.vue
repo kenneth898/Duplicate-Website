@@ -167,7 +167,7 @@
 						</div>
 					</div>
 					<div class="copyright">
-						2016-2025 ALPHA66. ALL RIGHTS RESERVED.
+						2016-{{ currentYear }} ALPHA66. ALL RIGHTS RESERVED.
 					</div>
 				</div>
 			</div>
@@ -265,6 +265,9 @@ export default {
 			return this.$t('content.Game_License_Content');
 		},
 		...mapGetters(['link_ataskasino', 'error']),
+		currentYear() {
+			return new Date().getFullYear();
+		}
 	},
 	setup() {
 		const { locale } = useI18n();
