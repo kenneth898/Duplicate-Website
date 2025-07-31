@@ -10,7 +10,7 @@
 				</div>
 			</div>
 
-			<table style="margin-top: 16px;">
+			<table style="margin-top: 16px; width: 100%;">
 				<thead>
 					<tr>
 						<td colspan="5" class="title">

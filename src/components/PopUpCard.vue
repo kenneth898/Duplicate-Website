@@ -34,7 +34,7 @@ export default {
 		},
 	},
 	mounted() {
-		document.body.style.overflow = 'hidden';
+		// document.body.style.overflow = 'hidden';
 		this.$store.dispatch('fetchLink_ataskasino');
 	},
 	computed: {
@@ -52,6 +52,10 @@ export default {
 	/* Ensure the button background is white */
 	opacity: 1;
 	/* Make sure the button is fully opaque */
+}
+
+.img-fluid {
+	max-width: 80%;
 }
 
 .adModal .btn-close:hover {
