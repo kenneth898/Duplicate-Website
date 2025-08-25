@@ -15,7 +15,9 @@
 		"Follow_Us": "关注我们",
 		"Visit": "访问我们的官方 CROWN99 博客：",
 		"Click": "点击这里",
-		"Website": "Crown99"
+		"Website": "Crown99",
+		"copy_right": "2016-{year} CROWN99. ALL RIGHTS RESERVED.",
+		"date_info": "17 Aug {year}"
 	},
 	"Main_Content": {
 		"H1_Header": "登录并玩老虎机 - Crown99 电子钱包线上赌场",
@@ -66,7 +68,7 @@
 		"Btm_Content_3": "发现马来西亚最值得信赖的Winbox赌场平台，提供安全的在线游戏、快速付款以及丰富的游戏选择。立即加入，享受顶级赌场体验。",
 		"Btm_Content_4": "Winbox",
 		"Btm_Content_5": "马来西亚赢宝",
-		"Btm_Content_6": "加入2024年最佳值得信赖的马来西亚在线赌场！Winbox提供移动登录和iOS、安卓APK下载。立即注册，开始体验Winbox吧！"
+		"Btm_Content_6": "加入{year}年最佳值得信赖的马来西亚在线赌场！Winbox提供移动登录和iOS、安卓APK下载。立即注册，开始体验Winbox吧！"
 	},
 	"content": {
 		"Learn_More": "进一步了解我们的合作伙伴:",

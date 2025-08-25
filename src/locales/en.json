@@ -15,7 +15,9 @@
 		"Follow_Us": "Follow Us",
 		"Visit": "VISIT OUR OFFICIAL CROWN99 BLOG AT:",
 		"Click": "CLICK HERE",
-		"Website": "Crown99"
+		"Website": "Crown99",
+		"copy_right": "2016-{year} CROWN99. ALL RIGHTS RESERVED.",
+		"date_info": "17 Aug {year}"
 	},
 	"Main_Content": {
 		"H1_Header": "Login and Play Slots - Crown99 Ewallet Casino",
@@ -66,7 +68,7 @@
 		"Btm_Content_3": "Discover the most trusted Winbox casino platform in Malaysia, offering secure & safe online gaming with fast payouts and a wide selection of games. Join us today for a premium casino experience.",
 		"Btm_Content_4": "Winbox",
 		"Btm_Content_5": "Winbox Malaysia",
-		"Btm_Content_6": "Join the 2024 Best Trusted Online Casino in Malaysia! Winbox offers mobile login and APK download for iOS and Android. Sign Up now and start playing Winbox today!"
+		"Btm_Content_6": "Join the {year} Best Trusted Online Casino in Malaysia! Winbox offers mobile login and APK download for iOS and Android. Sign Up now and start playing Winbox today!"
 	},
 	"content": {
 		"Learn_More": "Learn more about our big partner:",

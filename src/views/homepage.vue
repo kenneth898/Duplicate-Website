@@ -157,7 +157,7 @@
 							</strong>
 						</a>
 						|
-						{{ $t('Main_Content.Btm_Content_6') }}
+						{{ $t('Main_Content.Btm_Content_6', { year: new Date().getFullYear() }) }}
 					</p>
 					<div class="footer-detail">
 						<div class="Visit">
@@ -200,7 +200,7 @@
 						</div>
 					</div>
 					<div class="copyright">
-						2016-2025 CROWN99. ALL RIGHTS RESERVED.
+						{{ $t('message.copy_right', { year: new Date().getFullYear() }) }}
 					</div>
 				</div>
 			</div>

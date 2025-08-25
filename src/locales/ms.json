@@ -15,7 +15,9 @@
 		"Follow_Us": "IKUT KAMI",
 		"Visit": "LAWATI BLOG RASMI CROWN99 KAMI DI:",
 		"Click": "KLIK DI SINI",
-		"Website": "Crown99"
+		"Website": "Crown99",
+		"copy_right": "2016-{year} CROWN99. ALL RIGHTS RESERVED.",
+		"date_info": "17 Aug {year}"
 	},
 	"Main_Content": {
 		"H1_Header": "Log Masuk dan Main Slot - Kasino Crown99 Ewallet",
@@ -66,7 +68,7 @@
 		"Btm_Content_3": "Temui platform kasino Winbox yang paling dipercayai di Malaysia, menawarkan permainan dalam talian yang selamat & selamat dengan pembayaran pantas dan pelbagai pilihan permainan. Sertai kami hari ini untuk pengalaman kasino premium.",
 		"Btm_Content_4": "Winbox",
 		"Btm_Content_5": "Winbox Malaysia",
-		"Btm_Content_6": "Sertai Kasino Dalam Talian Dipercayai Terbaik 2024 di Malaysia! Winbox menawarkan log masuk mudah alih dan muat turun APK untuk iOS dan Android. Daftar sekarang dan mula bermain Winbox hari ini!"
+		"Btm_Content_6": "Sertai Kasino Dalam Talian Dipercayai Terbaik {year} di Malaysia! Winbox menawarkan log masuk mudah alih dan muat turun APK untuk iOS dan Android. Daftar sekarang dan mula bermain Winbox hari ini!"
 	},
 	"content": {
 		"Learn_More": "Ketahui lebih lanjut tentang rakan kongsi besar kami:",
