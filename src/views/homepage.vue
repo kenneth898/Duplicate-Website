@@ -255,7 +255,7 @@
 							-
 							{{ $t('Atas_Download.Content_1') }}
 							<a v-if="link_atascasinobet" :href="link_atascasinobet">{{ $t('Atas_Download.Content_2')
-								}}</a>
+							}}</a>
 							{{ $t('Atas_Download.Content_3') }}
 						</div>
 						<div class="Atas_Download_Container">
@@ -288,7 +288,7 @@
 						</div>
 					</div>
 					<div class="copyright">
-						2011-2025 IJaya88 ALL RIGHTS RESERVED.
+						{{ $t('message.copy_right', { year: new Date().getFullYear() }) }}
 					</div>
 				</div>
 			</div>
