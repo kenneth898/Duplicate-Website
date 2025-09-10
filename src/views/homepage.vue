@@ -52,7 +52,7 @@
 								<a :href="output_Link">{{ $t('Main_Content.Btm_Content_2') }}</a>
 								{{ $t('Main_Content.Btm_Content_3') }}
 							</strong> |
-							{{ $t('Main_Content.Btm_Content_4') }}
+							{{ $t('Main_Content.Btm_Content_4', { year: new Date().getFullYear() }) }}
 						</p>
 
 						<p>
