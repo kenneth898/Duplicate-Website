@@ -131,7 +131,7 @@
 					</div>
 					<div class="time-info">
 						<p>{{ $t('message.start_time') }}</p>
-						<p>28 Sep 2024</p>
+						<p>{{ $t('message.date', { year: new Date().getFullYear() }) }}</p>
 						<p class="time">19:30</p>
 						<a href="/">
 							<div class="bet-now-container">
