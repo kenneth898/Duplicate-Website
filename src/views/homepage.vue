@@ -110,7 +110,7 @@
 							<a href="/"><img class="main-pulse" src="/images/telegram.webp" alt="telegram"></a>
 							<a href="/"><img class="main-pulse" src="/images/instagram.webp" alt="instagram"></a>
 							<a href="/"><img class="main-pulse" src="/images/youtube.webp" alt="youtube"></a>
-							<a href="https://rebrand.ly/wbxseo1pWhatsapp" rel="nofollow"><img class="main-pulse"
+							<a href="https://tinyurl.com/wbxseo1pWhatsapp" rel="nofollow"><img class="main-pulse"
 									src="/images/whatsapp.webp" alt="whatsapp"></a>
 							<a href="/"><img class="main-pulse" src="/images/mail.webp" alt="mail"></a>
 						</div>
