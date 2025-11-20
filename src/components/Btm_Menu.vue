@@ -23,24 +23,24 @@
 
 			<div class="footer-content">
 				<div class="d-f col">
-					<a :href="link_output" rel="nofollow" target="_blank">
-						<img src="/images/Btm_Home_Img.webp" alt="Home">
-					</a>
+					<!-- <a :href="link_output" rel="nofollow" target="_blank"> -->
+					<img src="/images/Btm_Home_Img.webp" alt="Home">
+					<!-- </a> -->
 				</div>
 				<div class="d-f col">
-					<a :href="link_output + 'winbox-register'" rel="nofollow" target="_blank">
-						<img src="/images/Btm_History_Img.webp" alt="History">
-					</a>
+					<!-- <a :href="link_output + 'winbox-register'" rel="nofollow" target="_blank"> -->
+					<img src="/images/Btm_History_Img.webp" alt="History">
+					<!-- </a> -->
 				</div>
 				<div class="d-f col">
-					<a :href="link_output + 'winbox-register'" rel="nofollow" target="_blank">
-						<img src="/images/Btm_Live_Img.webp" alt="Live Chat">
-					</a>
+					<!-- <a :href="link_output + 'winbox-register'" rel="nofollow" target="_blank"> -->
+					<img src="/images/Btm_Live_Img.webp" alt="Live Chat">
+					<!-- </a> -->
 				</div>
 				<div class="d-f col">
-					<a :href="link_output + 'winbox-register'" rel="nofollow" target="_blank">
-						<img src="/images/Btm_Setting_Img.webp" alt="Setting">
-					</a>
+					<!-- <a :href="link_output + 'winbox-register'" rel="nofollow" target="_blank"> -->
+					<img src="/images/Btm_Setting_Img.webp" alt="Setting">
+					<!-- </a> -->
 				</div>
 			</div>
 		</div>

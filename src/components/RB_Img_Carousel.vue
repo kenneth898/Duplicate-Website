@@ -8,14 +8,14 @@
 		</div>
 		<div class="carousel-inner">
 			<div class="carousel-item active">
-				<a :href="link_output + 'winbox-register'" rel="nofollow">
-					<img src="/images/welcome bonus.webp" class="d-block w-100" alt="Welcome Bonus">
-				</a>
+				<!-- <a :href="link_output + 'winbox-register'" rel="nofollow"> -->
+				<img src="/images/welcome bonus.webp" class="d-block w-100" alt="Welcome Bonus">
+				<!-- </a> -->
 			</div>
 			<div class="carousel-item">
-				<a :href="link_output + 'winbox-register'" rel="nofollow">
-					<img src="/images/Daily_bonus.webp" class="d-block w-100" alt="50% Daily Bonus">
-				</a>
+				<!-- <a :href="link_output + 'winbox-register'" rel="nofollow"> -->
+				<img src="/images/Daily_bonus.webp" class="d-block w-100" alt="50% Daily Bonus">
+				<!-- </a> -->
 			</div>
 		</div>
 	</div>

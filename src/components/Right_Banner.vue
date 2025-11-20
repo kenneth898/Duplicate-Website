@@ -3,16 +3,16 @@
 
 		<div class="Mobile_View" style="display: none;">
 			<RB_Img_Carousel />
-			<a :href="link_output + 'winbox-register'" rel="nofollow"><img style="width: 100%; margin-bottom: 16px"
-					src="/images/Spin Bonus.webp" alt="Spin Bonus">
-			</a>
+			<!-- <a :href="link_output + 'winbox-register'" rel="nofollow"> -->
+			<img style="width: 100%; margin-bottom: 16px" src="/images/Spin Bonus.webp" alt="Spin Bonus">
+			<!-- </a> -->
 
 		</div>
 
 		<div class="RB_Imgs">
-			<a :href="link_output + 'winbox-register'" rel="nofollow"><img src="/images/Marc Marquez bonus.webp"
-					alt="93% Marc Marquex Bonus" style="margin-bottom: 16px;">
-			</a>
+			<!-- <a :href="link_output + 'winbox-register'" rel="nofollow"> -->
+			<img src="/images/Marc Marquez bonus.webp" alt="93% Marc Marquex Bonus" style="margin-bottom: 16px;">
+			<!-- </a> -->
 
 			<div class="Mobile_View" style="display: none;">
 				<img style="margin-bottom: 16px;" src="/images/LB_Img_1.gif" alt="Payment Method">
@@ -81,10 +81,17 @@
 
 			<div class="Big_Info_Container">
 				<div class="login-register-container">
-					<a :href="link_output + 'winbox-login'" rel="nofollow"><img class="Join"
-							src="/images/RB_Login_Img.gif" alt="Login"></a>
-					<a :href="link_output + 'winbox-register'" rel="nofollow"><img class="Register"
-							src="/images/RB_Register_Img.gif" alt="Register"></a>
+					<!-- <a :href="link_output + 'winbox-login'" rel="nofollow"> -->
+					<div style="width: 50%">
+						<img class="Join" src="/images/RB_Login_Img.gif" alt="Login">
+					</div>
+
+					<!-- </a> -->
+					<!-- <a :href="link_output + 'winbox-register'" rel="nofollow"> -->
+					<div style="width: 50%">
+						<img class="Register" src="/images/RB_Register_Img.gif" alt="Register">
+						<!-- </a> -->
+					</div>
 				</div>
 
 				<div class="RB_Info_Container" style="display: flex;">
@@ -97,15 +104,15 @@
 						<p>{{ $t('message.Min_Withdrawal') }} <strong>RM50.00</strong></p>
 					</div>
 					<div class="RB_Cash_Btn_Container">
-						<a :href="link_output + 'winbox-register'" rel="nofollow">
-							<img src="/images/RB_Deposit_Img.gif" alt="Deposit">
-						</a>
-						<a :href="link_output + 'winbox-register'" rel="nofollow">
-							<img src="/images/RB_Withdraw_Img.gif" alt="Withdraw">
-						</a>
-						<a href="/">
-							<img src="/images/RB_Refresh_Img.gif" alt="Refresh">
-						</a>
+						<!-- <a :href="link_output + 'winbox-register'" rel="nofollow"> -->
+						<img src="/images/RB_Deposit_Img.gif" alt="Deposit">
+						<!-- </a> -->
+						<!-- <a :href="link_output + 'winbox-register'" rel="nofollow"> -->
+						<img src="/images/RB_Withdraw_Img.gif" alt="Withdraw">
+						<!-- </a> -->
+						<!-- <a href="/"> -->
+						<img src="/images/RB_Refresh_Img.gif" alt="Refresh">
+						<!-- </a> -->
 					</div>
 				</div>
 			</div>
@@ -117,19 +124,19 @@
 						<b class="main-blink-me" style="color:Yellow;">[🧧]</b>
 					</div>
 					<div class="Promo_Container" style="flex-direction: column;">
-						<a :href="link_output + 'winbox-register'" rel="nofollow">
-							<img style="width: 280px;" src="/images/RB_Ang_Pao_Img.gif" alt="Ang Pao">
-						</a>
+						<!-- <a :href="link_output + 'winbox-register'" rel="nofollow"> -->
+						<img style="width: 280px;" src="/images/RB_Ang_Pao_Img.gif" alt="Ang Pao">
+						<!-- </a> -->
 
-						<a :href="link_output + 'winbox-register'" rel="nofollow">
-							<div class="Promo_Bg_Container">
-								<img class="Promo_Bg" src="/images/Promo_Bg_Img.webp" alt="Promotion">
-								<div class="Text_Container">
-									<p class="text"> Join Telegram Group Free </p>
-									<p class="name">RM20</p>
-								</div>
+						<!-- <a :href="link_output + 'winbox-register'" rel="nofollow"> -->
+						<div class="Promo_Bg_Container">
+							<img class="Promo_Bg" src="/images/Promo_Bg_Img.webp" alt="Promotion">
+							<div class="Text_Container">
+								<p class="text"> Join Telegram Group Free </p>
+								<p class="name">RM20</p>
 							</div>
-						</a>
+						</div>
+						<!-- </a> -->
 					</div>
 				</div>
 
@@ -157,25 +164,25 @@
 					</div>
 					<div class="Promo_Container">
 
-						<a :href="link_output + 'winbox-register'" rel="nofollow">
-							<div class="Promo_Bg_Container">
-								<img class="Promo_Bg" src="/images/Promo_Bg_Img.webp" alt="Promotion">
-								<div class="Text_Container">
-									<p class="text">FREE REGISTER </p>
-									<p class="name">RM10</p>
-								</div>
+						<!-- <a :href="link_output + 'winbox-register'" rel="nofollow"> -->
+						<div class="Promo_Bg_Container">
+							<img class="Promo_Bg" src="/images/Promo_Bg_Img.webp" alt="Promotion">
+							<div class="Text_Container">
+								<p class="text">FREE REGISTER </p>
+								<p class="name">RM10</p>
 							</div>
-						</a>
+						</div>
+						<!-- </a> -->
 
-						<a :href="link_output + 'winbox-register'" rel="nofollow">
-							<div class="Promo_Bg_Container">
-								<img class="Promo_Bg" src="/images/Promo_Bg_Img.webp" alt="Promotion">
-								<div class="Text_Container">
-									<p class="text">FREE REGISTER 365</p>
-									<p class="name">RM2</p>
-								</div>
+						<!-- <a :href="link_output + 'winbox-register'" rel="nofollow"> -->
+						<div class="Promo_Bg_Container">
+							<img class="Promo_Bg" src="/images/Promo_Bg_Img.webp" alt="Promotion">
+							<div class="Text_Container">
+								<p class="text">FREE REGISTER 365</p>
+								<p class="name">RM2</p>
 							</div>
-						</a>
+						</div>
+						<!-- </a> -->
 
 						<div class="Promo_Bg_Container Shadow_Container">
 							<img class="Promo_Bg" src="/images/Promo_Bg_Img.webp" alt="Promotion">
@@ -203,7 +210,7 @@
 						<br>
 						<b style="color:#FF3333;font-size:13px;">5%</b>
 						<span style="color: white; font-size: 13px; margin-left: 2px;">{{ $t('Share_Section.3_Line')
-							}}</span>
+						}}</span>
 						<span class="main-blink-me"
 							style="color: #EFF707;background: #F52222;font-size: 13px;padding: 2px 5px 1px;border-radius: 5px;">12AM</span>
 						<br>
@@ -225,25 +232,29 @@
 						</div>
 						<div>
 							<b style="color: lime;">{{ $t('Share_Section.Share') }}</b>
-							<span style="color: white; margin-left: 2px;">{{ $t('Share_Section.100_Friend') }}</span>
+							<span style="color: white; margin-left: 2px;">{{ $t('Share_Section.100_Friend')
+							}}</span>
 							<b style="color: magenta; margin-left: 2px;">{{ $t('Share_Section.Free') }}</b>
 							<span style="color: white; margin-left: 2px;">RM3000.00</span>
 						</div>
 					</div>
 
 					<div class="button-grp">
-						<a :href="link_output + 'winbox-register'" rel="nofollow"><img class="button_width"
-								src="/images/LB_Share_Img.gif" alt="Share"></a>
-						<a :href="link_output + 'winbox-register'" rel="nofollow"><img class="button_width"
-								src="/images/LB_Downline_Img.gif" alt="Downline"></a>
-						<a :href="link_output + 'winbox-register'" rel="nofollow"><img class="button_width"
-								src="/images/LB_Copy_Img.gif" alt="Copy"></a>
+						<!-- <a :href="link_output + 'winbox-register'" rel="nofollow"> -->
+						<img style="width: 50%;" class="button_width" src="/images/LB_Share_Img.gif" alt="Share">
+						<!-- </a> -->
+						<!-- <a :href="link_output + 'winbox-register'" rel="nofollow"> -->
+						<img style="width: 50%;" class="button_width" src="/images/LB_Downline_Img.gif" alt="Downline">
+						<!-- </a> -->
+						<!-- <a :href="link_output + 'winbox-register'" rel="nofollow"> -->
+						<img style="width: 50%;" class="button_width" src="/images/LB_Copy_Img.gif" alt="Copy">
+						<!-- </a> -->
 					</div>
 				</div>
 
-				<a :href="link_output + 'winbox-register'" rel="nofollow">
-					<img style="margin-bottom: 16px" src="/images/LB_Tekan_Img.webp" alt="Tekan Sini">
-				</a>
+				<!-- <a :href="link_output + 'winbox-register'" rel="nofollow"> -->
+				<img style="margin-bottom: 16px" src="/images/LB_Tekan_Img.webp" alt="Tekan Sini">
+				<!-- </a> -->
 
 				<div class="sport-betting-container">
 					<div class="SB-content-container">
@@ -255,22 +266,22 @@
 							<p>{{ $t('message.start_time') }}</p>
 							<p>19 Oct 2024</p>
 							<p class="time">19:30</p>
-							<a href="/">
-								<div class="bet-now-container">
-									<p>{{ $t('message.bet_now') }}</p>
-								</div>
-							</a>
+							<!-- <a href="/"> -->
+							<div class="bet-now-container">
+								<p>{{ $t('message.bet_now') }}</p>
+							</div>
+							<!-- </a> -->
 						</div>
 						<div class="team">
 							<img src="/images/West_Ham.webp" alt="Chelsea">
 							<p>{{ $t('message.team_1') }}</p>
 						</div>
 					</div>
-					<a :href="link_output + 'winbox-register'" rel="nofollow">
-						<div class="show-more-button-container">
-							<p>{{ $t('message.show_more') }}</p>
-						</div>
-					</a>
+					<!-- <a :href="link_output + 'winbox-register'" rel="nofollow"> -->
+					<div class="show-more-button-container">
+						<p>{{ $t('message.show_more') }}</p>
+					</div>
+					<!-- </a> -->
 				</div>
 			</div>
 		</div>

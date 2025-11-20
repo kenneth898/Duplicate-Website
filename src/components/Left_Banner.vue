@@ -2,9 +2,9 @@
 	<div class="Left_Banner_Container">
 		<div class="LB_Imgs">
 			<LB_Img_Carousel />
-			<a :href="link_output + 'winbox-register'" rel="nofollow"><img src="/images/Spin Bonus.webp"
-					alt="Spin Bonus">
-			</a>
+			<!-- <a :href="link_output + 'winbox-register'" rel="nofollow"> -->
+			<img src="/images/Spin Bonus.webp" alt="Spin Bonus">
+			<!-- </a> -->
 
 			<img src="/images/LB_Img_1.gif" alt="Payment Method">
 
@@ -72,7 +72,7 @@
 			<div class="Share_Section">
 				<div style="padding: 0 5px;">
 					<b style="color: gold; font-size: 13px; text-decoration: underline">{{ $t('Share_Section.1_Line')
-						}}</b>
+					}}</b>
 					<br>
 					<span style="color: white; font-size: 13px;">{{ $t('Share_Section.Press') }}</span>
 					<span class="main-blink-me"
@@ -82,12 +82,12 @@
 					<br>
 					<b style="color:#FF3333;font-size:13px;">5%</b>
 					<span style="color: white; font-size: 13px; margin-left: 2px;">{{ $t('Share_Section.3_Line')
-						}}</span>
+					}}</span>
 					<span class="main-blink-me"
 						style="color: #EFF707;background: #F52222;font-size: 13px;padding: 2px 5px 1px;border-radius: 5px;">12AM</span>
 					<br>
 					<b style="color: gold; font-size: 19px; text-decoration: underline;">{{ $t('Share_Section.4_Line')
-						}}</b>
+					}}</b>
 					<br>
 					<div>
 						<b style="color: lime;">{{ $t('Share_Section.Share') }}</b>
@@ -109,18 +109,30 @@
 					</div>
 				</div>
 				<div class="button-grp">
-					<a :href="link_output + 'winbox-register'" rel="nofollow"><img class="button_width"
-							src="/images/LB_Share_Img.gif" alt="Share"></a>
-					<a :href="link_output + 'winbox-register'" rel="nofollow"><img class="button_width"
-							src="/images/LB_Downline_Img.gif" alt="Downline"></a>
-					<a :href="link_output + 'winbox-register'" rel="nofollow"><img class="button_width"
-							src="/images/LB_Copy_Img.gif" alt="Copy"></a>
+					<!-- <a :href="link_output + 'winbox-register'" rel="nofollow"> -->
+					<div style="width: 50%;">
+						<img class="button_width" src="/images/LB_Share_Img.gif" alt="Share">
+					</div>
+
+					<!-- </a> -->
+					<!-- <a :href="link_output + 'winbox-register'" rel="nofollow"> -->
+					<div style="width: 50%;">
+						<img class="button_width" src="/images/LB_Downline_Img.gif" alt="Downline">
+					</div>
+
+					<!-- </a> -->
+					<!-- <a :href="link_output + 'winbox-register'" rel="nofollow"> -->
+					<div style="width: 50%;">
+						<img class="button_width" src="/images/LB_Copy_Img.gif" alt="Copy">
+					</div>
+
+					<!-- </a> -->
 				</div>
 			</div>
 
-			<a :href="link_output + 'winbox-register'" rel="nofollow">
-				<img src="/images/LB_Tekan_Img.webp" alt="Tekan Sini">
-			</a>
+			<!-- <a :href="link_output + 'winbox-register'" rel="nofollow"> -->
+			<img src="/images/LB_Tekan_Img.webp" alt="Tekan Sini">
+			<!-- </a> -->
 
 			<div class="sport-betting-container">
 				<div class="SB-content-container">
@@ -132,22 +144,22 @@
 						<p>{{ $t('message.start_time') }}</p>
 						<p>19 Oct 2024</p>
 						<p class="time">19:30</p>
-						<a :href="link_output + 'winbox-login'" rel="nofollow">
-							<div class="bet-now-container">
-								<p>{{ $t('message.bet_now') }}</p>
-							</div>
-						</a>
+						<!-- <a :href="link_output + 'winbox-login'" rel="nofollow"> -->
+						<div class="bet-now-container">
+							<p>{{ $t('message.bet_now') }}</p>
+						</div>
+						<!-- </a> -->
 					</div>
 					<div class="team">
 						<img src="/images/West_Ham.webp" alt="Chelsea">
 						<p>{{ $t('message.team_1') }}</p>
 					</div>
 				</div>
-				<a :href="link_output + 'winbox-register'" rel="nofollow">
-					<div class="show-more-button-container">
-						<p>{{ $t('message.show_more') }}</p>
-					</div>
-				</a>
+				<!-- <a :href="link_output + 'winbox-register'" rel="nofollow"> -->
+				<div class="show-more-button-container">
+					<p>{{ $t('message.show_more') }}</p>
+				</div>
+				<!-- </a> -->
 			</div>
 		</div>
 	</div>

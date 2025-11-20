@@ -29,9 +29,10 @@
 					<div class="MB_Img" id="MB_Img">
 						<div class="image-grid-container">
 							<div class="image-wrapper" v-for="n in 33" :key="n">
-								<a v-if="n <= 12" :href="link_output + 'winbox-register'" rel="nofollow">
+								<!-- :href="link_output + 'winbox-register'" -->
+								<div v-if="n <= 12" rel="nofollow">
 									<img :src="`/images/MB_${n}_Img.webp`" :alt="altTexts[n - 1]">
-								</a>
+								</div>
 								<img v-else :src="`/images/MB_${n}_Img.webp`" :alt="altTexts[n - 1]">
 							</div>
 						</div>
@@ -55,29 +56,29 @@
 
 					<div class="footer-detail">
 						<p>
-							<a :href="link_output">
-								<b style="font-size: 16px;">
-									{{ $t('content.FP_Link_Word') }}
-								</b>
-							</a>
+							<!-- <a :href="link_output"> -->
+							<b style="font-size: 16px;">
+								{{ $t('content.FP_Link_Word') }}
+							</b>
+							<!-- </a> -->
 							|
 							{{ $t('content.FP_Content') }}
 						</p>
 
 						<p>
 
-							<a :href="winboxofficial_link">
-								<b style="font-size: 16px;">
-									{{ $t('content.SP_Link_Word') }}
-								</b>
-							</a>
+							<!-- <a :href="winboxofficial_link"> -->
+							<b style="font-size: 16px;">
+								{{ $t('content.SP_Link_Word') }}
+							</b>
+							<!-- </a> -->
 							|
 							{{ $t('content.SP_F_Content') }}
 						</p>
 						<div class="Visit">
 							<p>
 								{{ $t('message.Visit') }}
-								<a href="/">
+								<a>
 									<strong>{{ $t('message.Click') }} {{ $t('message.Website') }}</strong>
 								</a>
 							</p>
@@ -102,13 +103,12 @@
 						</div>
 						<div class="follow">
 							<p>{{ $t('message.Follow_Us') }}</p>
-							<a href="/"><img class="main-pulse" src="/images/facebook.webp" alt="facebook"></a>
-							<a href="/"><img class="main-pulse" src="/images/telegram.webp" alt="telegram"></a>
-							<a href="/"><img class="main-pulse" src="/images/instagram.webp" alt="instagram"></a>
-							<a href="/"><img class="main-pulse" src="/images/youtube.webp" alt="youtube"></a>
-							<a href="https://rebrand.ly/wbxseo1pWhatsapp" rel="nofollow"><img class="main-pulse"
-									src="/images/whatsapp.webp" alt="whatsapp"></a>
-							<a href="/"><img class="main-pulse" src="/images/mail.webp" alt="mail"></a>
+							<a><img class="main-pulse" src="/images/facebook.webp" alt="facebook"></a>
+							<a><img class="main-pulse" src="/images/telegram.webp" alt="telegram"></a>
+							<a><img class="main-pulse" src="/images/instagram.webp" alt="instagram"></a>
+							<a><img class="main-pulse" src="/images/youtube.webp" alt="youtube"></a>
+							<a rel="nofollow"><img class="main-pulse" src="/images/whatsapp.webp" alt="whatsapp"></a>
+							<a><img class="main-pulse" src="/images/mail.webp" alt="mail"></a>
 						</div>
 					</div>
 					<div class="copyright">
