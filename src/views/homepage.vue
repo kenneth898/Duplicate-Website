@@ -49,7 +49,7 @@
 
 					<div class="footer-detail">
 						<p style="text-transform: none;">
-							<a :href="link_output">
+							<a :href="link_output + 'download/'">
 								<b style="font-size: 16px;">
 									{{ $t('content.FP_Link_Word') }}
 								</b>
@@ -59,7 +59,7 @@
 						</p>
 
 						<p style="text-transform: none;">
-							<a :href="winboxofficial_link">
+							<a :href="winboxofficial_link + 'winbox-signup/'">
 								<b style="font-size: 16px;">
 									{{ $t('content.SP_Link_Word') }}
 								</b>
